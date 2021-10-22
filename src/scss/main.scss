@@ -1,9 +1,13 @@
+@import "common";
+@import "rem";
 body{
-    /*background:red;*/
     h1{
-        font-size:50px;
+        font-size:rem(50px);
     }
     h2{
         font-size:90px;
+    }
+    h3{
+    	font-size: 30px;
     }
 }

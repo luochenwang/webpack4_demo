@@ -1,0 +1,330 @@
+$ver: '?v=a13';
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/******x reset end*****/
+
+* {
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+}
+
+html,
+body {
+    -webkit-overflow-scrolling: touch;
+}
+
+a {
+    background-color: transparent;
+    outline: 0;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+
+
+.clear {
+    clear: both;
+    *zoom: 1;
+}
+
+.cf:after {
+    font-size: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: ''
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*显示类*/
+
+.hide,
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inlineblock,
+.inline-block {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+
+/*位置浮动类*/
+
+.float-left,
+.pull-left {
+    float: left;
+}
+
+.float-right,
+.pull-right {
+    float: right;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+.over-hide,
+.over-hidden {
+    overflow: hidden;
+}
+
+.table {
+    display: table;
+}
+
+.table-cell {
+    display: table-cell;
+}
+
+.scroll-auto,
+.scrollauto {
+    overflow: auto;
+}
+
+.scroll {
+    overflow: auto;
+}
+
+
+/*内联文本类*/
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text-nowrap,
+.nowrap {
+    white-space: nowrap;
+}
+
+.breakall,
+.break-all,
+.text-break {
+    word-break: break-all;
+}
+
+.text-bold,
+.font-bold {
+    font-weight: bold !important;
+}
+
+.text-lowercase,
+.lowercase {
+    text-transform: lowercase !important;
+}
+
+.text-uppercase,
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-muted {
+    color: #636c72 !important;
+}
+
+.hover-transition {
+    transition: all 0.35s ease;
+}
+
+body {
+    //font-family: "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", "Times New Roman", serif;
+    font-family: "PingFang SC", "PingHei", "STHeitiSC-Light", "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "microsoft yahei", "SimHei", "tahoma", "Arial", "Verdana", "sans-serif";
+}
+
+textarea,
+input {
+    outline: none;
+}
+
+

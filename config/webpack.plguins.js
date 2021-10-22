@@ -46,7 +46,6 @@ const plguins = [
     new uglify(),
     new webpack.ProvidePlugin({
         '@': path.resolve(__dirname, '../src/'),
-        '$': [path.resolve(__dirname, '../src/js/jquery.js')],
     }),
     new CopyWebpackPlugin([
       {
